@@ -1,0 +1,90 @@
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display';
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+    
+}
+
+.header-links {
+    font-size: 18px;
+    font-weight: 500;
+    color: #e5e7eb;
+}
+.header-links ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 12px;
+}
+
+.hero-section {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background-color: #1f2937;
+    
+    display: flex;
+    justify-content: center;
+    min-height: 65vh;
+    min-height: 65dvh;
+    padding: 25px;
+}
+.hero-one {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+}
+
+.hero-heading {
+    flex: 3 1 auto;
+}
+
+.hero-body {
+    flex: 2 1 auto;
+}
+.hero-sign-up {
+    flex: 1 1 auto;
+}
+
+.hero-two {
+    flex: 1 1 auto;
+}
+
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
