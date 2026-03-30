@@ -56,16 +56,16 @@ html, body {
     background-color: #1f2937;
     
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     gap: 20px;
     min-height: 65vh;
     min-height: 65dvh;
-    padding: 25px;
-    padding-left: 200px;
-    padding-right: 200px;
-    max-width:;
-    height: 250px;
+    padding: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    min-height: 250px;
 }
 .hero-one {
     display: flex;
@@ -107,6 +107,7 @@ html, body {
 .hero-image img {
     max-width: 100%;
     height: auto;
+    min-width: 340px;
 }
 
 .info-panel {
@@ -180,6 +181,7 @@ html, body {
 .author {
     font-size: 24px;
     font-weight: 700;
+    text-align: right;
 
     align-self: flex-end;
     padding-right: 10%;
