@@ -112,7 +112,6 @@ html, body {
 .info-panel {
     font-size: 18px;
     font-weight: 400;
-    color: ;
     background-color: white;
 
     display: flex;
@@ -120,8 +119,8 @@ html, body {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    min-height: 65vh;
-    min-height: 65dvh;
+    min-height: 40vh;
+    min-height: 40dvh;
     padding: 25px;
 }
 
@@ -131,6 +130,8 @@ html, body {
     justify-content: center;
     flex: 1;
     gap: 20px;
+    max-height: 30vh;
+    max-height: 30dvh;
 }
 
 .info-heading {
@@ -140,9 +141,46 @@ html, body {
 }
 
 .info-box {
+    text-align: center;
+
     display: flex;
     flex-direction: column;
+    justify-content: center;
     max-width: 15%;
+    height: auto;
+    max-height: 200px;
+    margin: 0%;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 40vh;
+    min-height: 40dvh;
+    padding: 40px;
+    gap: 20px;
+    
+}
+
+.quote {
+    font-family: serif;
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: 700;
+
+    align-self: flex-end;
+    padding-right: 10%;
 }
 
 li {
