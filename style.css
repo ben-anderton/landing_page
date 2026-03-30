@@ -126,7 +126,7 @@ html, body {
 
 .info-box-container{
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: center;
     flex: 1;
     gap: 20px;
@@ -137,6 +137,7 @@ html, body {
 .info-heading {
     font-size: 36px;
     font-weight: 900;
+    text-align: center;
     color: #1f2937;
 }
 
@@ -146,6 +147,7 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-width: 165px;
     max-width: 15%;
     height: auto;
     max-height: 200px;
