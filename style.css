@@ -16,6 +16,7 @@ html, body {
 .container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .header {
@@ -56,14 +57,20 @@ html, body {
     
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 20px;
     min-height: 65vh;
     min-height: 65dvh;
     padding: 25px;
+    width: fit-content;
+    height: 250px;
 }
 .hero-one {
     display: flex;
     flex-direction: column;
-    flex: 1 1 0;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1;
 }
 
 .hero-heading {
@@ -78,7 +85,13 @@ html, body {
 }
 
 .hero-two {
-    flex: 1 1 auto;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.hero-image img {
+    max-width: 100%;
+    height: auto;
 }
 
 li {
